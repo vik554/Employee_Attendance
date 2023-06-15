@@ -20,6 +20,15 @@ public class EmpWage {
         int wage = (hour_wage * full_day);
 
         System.out.println("Employee Daily wage is: "+ wage);
+        //Calculating PartTime UC-3
+
+
+
+        int Emp_Hour=0;
+        int Emp_wage=0;
+
+        int EmpCheck =(int) Math.floor(Math.random()* 10) % 3;
+
 
     }
 
