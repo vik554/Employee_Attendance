@@ -28,6 +28,20 @@ public class EmpWage {
         int Emp_wage=0;
 
         int EmpCheck =(int) Math.floor(Math.random()* 10) % 3;
+        //Using Switch Cases UC-4
+
+        switch (EmpCheck){
+            case Part_time:
+                Emp_Hour = 4;
+                break;
+            case Full_time:
+                Emp_Hour = 8;
+                break;
+            default:
+                Emp_Hour = 0;
+        }
+        Emp_wage = Emp_Hour * hour_wage;
+        System.out.println("Your Wage: "+Emp_wage);
 
 
     }
